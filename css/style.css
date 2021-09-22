@@ -3,3 +3,103 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    /* debug  */
+    background-color: green;
+    position: relative;
+}
+
+
+.login {
+    float: right;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.logo {
+    float: left;
+    margin: 10px 0;
+}
+
+/* header  */
+header {
+    background-image: url(../img/jumbo.png);
+}
+    
+
+.centratorenav {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sottomenu {
+    color: white;
+    float: left;
+    margin: 10px 20px;
+    list-style: none;
+}
+
+/* JUMBOTRON  */
+
+#spacejumbo {
+    width: 40%;
+    margin: 70px auto;
+    /* dubug */
+    height: 200px;
+    background-color: yellow;
+}
+/* debug  */
+.scaricamc {
+    background-color: violet;
+}
+.apribrowser {
+    background-color: violet;
+}
+
+
+
+/* main  */
+.sfondobianco {
+    background-color: white;
+}
+
+.sfondoazzurro {
+    background-color: rgb(189, 241, 236);
+}
+.colonnasx{
+    float: left;
+    width: 44%;
+}
+.colonnadx{
+    float: right;
+    width: 44%;
+}
+.imgcolonna {
+    width: 100%;
+}
+
+.colonnadx, .colonnasx{
+    margin: 150px 0px;
+}
+
+#ultima {
+    text-align: center;
+    margin: 150px 0px;
+}
+
+/* footer  */
