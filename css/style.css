@@ -7,9 +7,14 @@ body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;;
     font-size: 20px;
 }
+
 a {
     text-decoration: none;
     color: white;
+}
+
+li {
+    list-style: none;
 }
 
 h1{
@@ -22,13 +27,7 @@ h2{
     font-size: 45px;
 }
 
-h3{
-    background-image: url(../img/stars.svg);
-    background-repeat: no-repeat;
-    background-position:center;
-    padding: 10px;
-    font-size: 30px;
-}
+
 
 .bottone {
     border-radius: 25px;
@@ -45,7 +44,6 @@ h3{
 .container {
     width: 70%;
     margin: 0 auto;
-    position: relative;
 }
 
 
@@ -114,7 +112,8 @@ header {
 
 .sfondoazzurro {
     background-color: rgb(189, 241, 236);
-    padding: 0 100px;
+    padding: 0 100px; 
+    width: 100%
 }
 
 .colonnasx {
@@ -140,9 +139,74 @@ header {
     text-align: center;
     padding: 100px 0px;
 }
+
+#pronto{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 10px;
+    font-size: 30px;
+}
+
  .blu {
      color: white;
      background-color: rgb(132, 132, 187);
  }
 
+
 /* footer  */
+#sfondoft {
+    background-color: rgb(58, 58, 83);
+}
+
+footer {
+    color: white;
+}
+
+
+
+.colonna {
+    float: left;
+}
+
+.social {
+    width: 25%;
+}
+
+.pages {
+    width: 15%;
+}
+
+.blunav {
+    color: rgb(132, 132, 187);
+}
+
+.registrati {
+    background-color: rgb(132, 132, 187);
+    font-size: 15px;
+}
+
+#fondo {
+    border-top: 1px solid rgb(132, 132, 187);
+    margin: 20px 0 50px 0;
+    padding: 35px 0 80px;
+}
+
+.colonna li {
+    line-height: 45px;
+}
+
+#navbot {
+    padding: 60px 0px 15px 0px;
+} 
+
+#bandiera {
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+#lingua {
+    font-size: 15px;
+    height: 15px;
+    margin: 20px 0;
+}
